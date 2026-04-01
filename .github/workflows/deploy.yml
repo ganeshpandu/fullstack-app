@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-push-deploy:
-    runs-on: k8s-runner
+    runs-on: self-hosted
 
     steps:
       # 📦 Checkout code
